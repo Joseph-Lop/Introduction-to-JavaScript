@@ -11,30 +11,39 @@ if (votingAge > 18) {
 
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
+let myFavoriteGame = 'Minecraft';
+let myActualFavGame = 'Call of Duty';
 
-
-
-
+    if (myFavoriteGame = 'Minecraft'){
+        myFavoriteGame = myActualFavGame;
+        console.log(myFavoriteGame);
+    }
 
 //Task c: Convert string ("1999") to integer (1999)  (no function required) // hint look up the Number method
+const conversion = "1999";
 
-
-
+console.log(parseInt(conversion));
 
 
 //Task d: Write a function to multiply a*b 
+const a = 20;
+const b = 3;
 
-
-
-
+function solution (num1, num2) {
+    return num1 * num2;
+}
+console.log(solution(a, b));
 
 /************************************************************** Task 2 **************************************************************/
 //Age in Dog years
 //write a function that takes your age and returns it to you in dog years - they say that 1 human year is equal to seven dog years 
+let myAge = 21;
 
+function myAgeInDogYears (vr) {
+    return vr * 7;
+}
 
-
-
+console.log(myAgeInDogYears(myAge))
 
 /************************************************************** Task 3 **************************************************************/
 //Dog feeder 
